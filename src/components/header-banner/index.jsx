@@ -8,7 +8,7 @@ export default function HeaderBanner() {
     <div className='banner'>
       <div className='images'>
         <Link to='/'>
-          <img src={PokemonImage} className='logo' alt='pokemon-header-image' />
+          <img src={PokemonImage} className='logo' alt='pokemon-header' />
         </Link>
       </div>
     </div>
