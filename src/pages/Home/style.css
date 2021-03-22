@@ -1,0 +1,11 @@
+.pokemons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemons-container a {
+  text-decoration: none;
+  color: gray;
+}
