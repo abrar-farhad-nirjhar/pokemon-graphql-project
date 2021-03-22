@@ -19,7 +19,7 @@ export default function Home() {
 
   useEffect(() => {
     getPokemons();
-  }, [first]);
+  }, [first, getPokemons]);
 
   useEffect(() => {
     if (data) {
@@ -28,7 +28,7 @@ export default function Home() {
         ...data.pokemons.slice(pokemons.length, data.pokemons.length),
       ]);
     }
-  }, [data]);
+  }, [data, pokemons]);
 
   const loadMoreData = () => {
     setFirst(first + 10);
